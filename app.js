@@ -14,7 +14,8 @@ const corsOptions = {
     // Daftar origin yang diizinkan
     const allowedOrigins = [
       'http://localhost:5173',
-      'http://192.168.0.198:5173' // IP jaringan kamu
+      'http://192.168.0.198:5173', // IP jaringan kamu
+      'https://basabisa-frontend.vercel.app/'
     ];
     
     if (!origin || allowedOrigins.indexOf(origin) !== -1) {
