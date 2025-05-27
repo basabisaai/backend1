@@ -1,4 +1,4 @@
-const app = require('./ai.js');
+const app = require('./routes/ai.js'); // ✅ BENAR
 
 const PORT = process.env.PORT || 3000;
 
