@@ -1,5 +1,6 @@
 // backend/routes/ai.js — REFACTORED with persistent cooldown logic (real reset)
 const express = require('express');
+const app = express();
 const { createClient } = require('@supabase/supabase-js');
 const { OpenAI } = require('openai');
 const router = express.Router();
