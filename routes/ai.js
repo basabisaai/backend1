@@ -231,4 +231,4 @@ router.post('/generate-thread-title', async (req, res) => {
   }
 });
 
-module.exports = app;
+module.exports = router;
